@@ -1,0 +1,87 @@
+body {
+  background-color: #E4E0E1;
+  text-align: center;
+}
+
+p,
+li {
+  font-family: Georgia;
+  color: black;
+}
+
+img {
+  border: 1mm solid #AB886D;
+}
+
+.main-pic {
+  border: 2mm ridge #AB886D;
+}
+
+.odin {
+  width: 500px;
+  height: auto;
+}
+
+.container-recipes {
+  width: 1000px;
+  border: 2mm ridge #AB886D;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 2%;
+}
+
+.container-recipe {
+  width: 400px;
+  height: 250px;
+}
+
+.recipe-pic {
+  width: 50%;
+  height: 50%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lucida Handwriting";
+  color: #493628;
+}
+
+.container-directions{
+  width: 1000px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.step-text {
+  padding: 0 2% 2% 2%;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.step {
+  color: #AB886D;
+  margin-bottom: 0;
+}
+
+.container-ingredients {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  border: 5px ridge #AB886D;
+}
+
+.ingredient {
+  text-align: left;
+  padding: 0.5mm;
+}
+
+a {
+  font-family: Georgia;
+  color: #493628;;
+  text-decoration: none;
+  font-family: "Lucida Handwriting"
+}
